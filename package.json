@@ -1,0 +1,24 @@
+{
+  "name": "brincando-com-postgre",
+  "version": "1.0.0",
+  "description": "testando postgresql com nodejs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "postgre",
+    "sql",
+    "database",
+    "nodejs",
+    "backend"
+  ],
+  "author": "Leonardo Gomes Batista",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1"
+  }
+}
